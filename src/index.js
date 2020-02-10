@@ -1,4 +1,4 @@
-function towelSort (matrix) {
+module.exports = function towelSort (matrix) {
   const stack = [...matrix];
   const res = [];
   if (matrix.length == 0 || matrix == undefined) {
