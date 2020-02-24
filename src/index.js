@@ -18,13 +18,10 @@ module.exports = function towelSort(matrix) {
   x++;
  }
  } 
- return res.flat();
+ var final = res.flat();
+ 
+ return final;
 }
 }
- console.log (towelSort([
-  [ 1, 2, 3 ],
-  [ 4, 5, 6 ],
-  [ 7, 8, 9 ],
- ]));
  
  
